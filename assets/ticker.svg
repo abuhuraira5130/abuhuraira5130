@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="72" viewBox="0 0 1200 72" role="img" aria-label="Tech stack ticker">
+  <defs>
+    <linearGradient id="fadeG" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#000000"/>
+      <stop offset="0.08" stop-color="#FFFFFF"/>
+      <stop offset="0.92" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#000000"/>
+    </linearGradient>
+    <mask id="fade">
+      <rect width="1200" height="72" fill="url(#fadeG)"/>
+    </mask>
+    <style>
+      .t { font-family: Consolas, 'Courier New', monospace; font-size: 16px; fill: #C4B5FD; text-anchor: middle; }
+      .p { fill: #0B0A1E; stroke: #6366F1; stroke-opacity: 0.7; stroke-width: 1.5; }
+    </style>
+    <g id="set">
+      <rect class="p" x="0" y="16" width="92" height="40" rx="20"/><text class="t" x="46" y="41">Python</text>
+      <rect class="p" x="108" y="16" width="62" height="40" rx="20"/><text class="t" x="139" y="41">C++</text>
+      <rect class="p" x="186" y="16" width="92" height="40" rx="20"/><text class="t" x="232" y="41">Django</text>
+      <rect class="p" x="294" y="16" width="102" height="40" rx="20"/><text class="t" x="345" y="41">FastAPI</text>
+      <rect class="p" x="412" y="16" width="102" height="40" rx="20"/><text class="t" x="463" y="41">Next.js</text>
+      <rect class="p" x="530" y="16" width="82" height="40" rx="20"/><text class="t" x="571" y="41">React</text>
+      <rect class="p" x="628" y="16" width="152" height="40" rx="20"/><text class="t" x="704" y="41">React Native</text>
+      <rect class="p" x="796" y="16" width="132" height="40" rx="20"/><text class="t" x="862" y="41">JavaScript</text>
+      <rect class="p" x="944" y="16" width="132" height="40" rx="20"/><text class="t" x="1010" y="41">TypeScript</text>
+      <rect class="p" x="1092" y="16" width="132" height="40" rx="20"/><text class="t" x="1158" y="41">PostgreSQL</text>
+      <rect class="p" x="1240" y="16" width="152" height="40" rx="20"/><text class="t" x="1316" y="41">Tailwind CSS</text>
+      <rect class="p" x="1408" y="16" width="92" height="40" rx="20"/><text class="t" x="1454" y="41">Vercel</text>
+      <rect class="p" x="1516" y="16" width="62" height="40" rx="20"/><text class="t" x="1547" y="41">Git</text>
+      <rect class="p" x="1594" y="16" width="102" height="40" rx="20"/><text class="t" x="1645" y="41">AI / ML</text>
+      <rect class="p" x="1712" y="16" width="112" height="40" rx="20"/><text class="t" x="1768" y="41">LLM Apps</text>
+    </g>
+  </defs>
+
+  <g mask="url(#fade)">
+    <g>
+      <use href="#set" xlink:href="#set" x="0"/>
+      <use href="#set" xlink:href="#set" x="1840"/>
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-1840 0" dur="32s" repeatCount="indefinite"/>
+    </g>
+  </g>
+</svg>

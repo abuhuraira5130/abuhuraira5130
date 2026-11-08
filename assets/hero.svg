@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Abu Huraira, Full Stack Developer and AI/ML Engineer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050505"/>
+      <stop offset="0.55" stop-color="#0A0920"/>
+      <stop offset="1" stop-color="#15103B"/>
+    </linearGradient>
+    <linearGradient id="vio" x1="0" y1="0" x2="1" y2="0" spreadMethod="reflect">
+      <stop offset="0" stop-color="#6366F1"/>
+      <stop offset="0.5" stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#C084FC"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-0.4 0;0.4 0;-0.4 0" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+    <radialGradient id="orb">
+      <stop offset="0" stop-color="#8B5CF6" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="scanLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#C4B5FD" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#C4B5FD"/>
+      <stop offset="1" stop-color="#C4B5FD" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="scanBand" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8B5CF6" stop-opacity="0"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0.22"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#6366F1" stroke-opacity="0.14" stroke-width="1"/>
+      <animateTransform attributeName="patternTransform" type="translate" from="0 0" to="0 40" dur="4s" repeatCount="indefinite"/>
+    </pattern>
+    <filter id="glow" x="-30%" y="-60%" width="160%" height="220%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="card"><rect width="1200" height="360" rx="22"/></clipPath>
+  </defs>
+
+  <style>
+    @keyframes blink { 50% { opacity: 0; } }
+    .cur { animation: blink 1s steps(1) infinite; }
+  </style>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="360" fill="url(#bg)"/>
+    <rect width="1200" height="360" fill="url(#grid)"/>
+
+    <ellipse cx="300" cy="175" rx="380" ry="120" fill="#6366F1" opacity="0.1">
+      <animate attributeName="opacity" values="0.05;0.16;0.05" dur="5s" repeatCount="indefinite"/>
+    </ellipse>
+
+    <!-- floating particles -->
+    <circle cx="130" cy="360" r="1.6" fill="#A78BFA"><animate attributeName="cy" from="370" to="-10" dur="9s" begin="-2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.9;0" dur="9s" begin="-2s" repeatCount="indefinite"/></circle>
+    <circle cx="260" cy="360" r="1.2" fill="#C4B5FD"><animate attributeName="cy" from="370" to="-10" dur="11s" begin="-6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="11s" begin="-6s" repeatCount="indefinite"/></circle>
+    <circle cx="410" cy="360" r="2" fill="#8B5CF6"><animate attributeName="cy" from="370" to="-10" dur="8s" begin="-1s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.9;0" dur="8s" begin="-1s" repeatCount="indefinite"/></circle>
+    <circle cx="560" cy="360" r="1.4" fill="#A78BFA"><animate attributeName="cy" from="370" to="-10" dur="12s" begin="-8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="12s" begin="-8s" repeatCount="indefinite"/></circle>
+    <circle cx="690" cy="360" r="1.8" fill="#C4B5FD"><animate attributeName="cy" from="370" to="-10" dur="10s" begin="-4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.9;0" dur="10s" begin="-4s" repeatCount="indefinite"/></circle>
+    <circle cx="790" cy="360" r="1.2" fill="#8B5CF6"><animate attributeName="cy" from="370" to="-10" dur="9s" begin="-7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="9s" begin="-7s" repeatCount="indefinite"/></circle>
+    <circle cx="1120" cy="360" r="1.6" fill="#A78BFA"><animate attributeName="cy" from="370" to="-10" dur="10s" begin="-3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.9;0" dur="10s" begin="-3s" repeatCount="indefinite"/></circle>
+    <circle cx="1160" cy="360" r="2" fill="#C4B5FD"><animate attributeName="cy" from="370" to="-10" dur="13s" begin="-9s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="13s" begin="-9s" repeatCount="indefinite"/></circle>
+    <circle cx="340" cy="360" r="1.3" fill="#8B5CF6"><animate attributeName="cy" from="370" to="-10" dur="14s" begin="-5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="14s" begin="-5s" repeatCount="indefinite"/></circle>
+
+    <!-- scanning beam -->
+    <rect x="0" y="-60" width="1200" height="60" fill="url(#scanBand)">
+      <animate attributeName="y" from="-60" to="300" dur="5s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="0" y="0" width="1200" height="1.5" fill="url(#scanLine)">
+      <animate attributeName="y" from="0" to="360" dur="5s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- HUD on the right -->
+    <g transform="translate(990 180)">
+      <circle r="190" fill="url(#orb)">
+        <animate attributeName="r" values="175;195;175" dur="4s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="135" fill="none" stroke="#6366F1" stroke-opacity="0.55" stroke-width="1.5" stroke-dasharray="3 11">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="40s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="105" fill="none" stroke="#A78BFA" stroke-opacity="0.8" stroke-width="2" stroke-dasharray="70 30 10 30">
+        <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="22s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="74" fill="none" stroke="url(#vio)" stroke-width="4" stroke-linecap="round" stroke-dasharray="130 335">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="7s" repeatCount="indefinite"/>
+      </circle>
+      <g>
+        <circle cx="135" cy="0" r="5" fill="#C4B5FD" filter="url(#glow)"/>
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="12s" repeatCount="indefinite"/>
+      </g>
+      <g>
+        <circle cx="-105" cy="0" r="4" fill="#8B5CF6" filter="url(#glow)"/>
+        <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="9s" repeatCount="indefinite"/>
+      </g>
+      <circle r="42" fill="#0A0920" stroke="url(#vio)" stroke-width="2"/>
+      <text y="11" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="30" font-weight="800" fill="url(#vio)">AH</text>
+    </g>
+
+    <!-- text -->
+    <text x="70" y="52" font-family="Consolas,'Courier New',monospace" font-size="13" letter-spacing="4" fill="#6366F1">GITHUB // ABUHURAIRA5130</text>
+    <text x="1130" y="52" text-anchor="end" font-family="Consolas,'Courier New',monospace" font-size="13" letter-spacing="3" fill="#A78BFA">
+      <tspan>&#9679;</tspan> OPEN TO WORK
+      <animate attributeName="opacity" values="1;0.35;1" dur="2s" repeatCount="indefinite"/>
+    </text>
+    <text x="70" y="108" font-family="Consolas,'Courier New',monospace" font-size="15" letter-spacing="5" fill="#8B5CF6">HELLO WORLD, I'M
+      <animate attributeName="opacity" values="0.55;1;0.55" dur="3s" repeatCount="indefinite"/>
+    </text>
+    <text x="66" y="192" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="84" font-weight="800" letter-spacing="1" fill="url(#vio)" filter="url(#glow)">Abu Huraira</text>
+
+    <!-- rotating typewriter -->
+    <text x="70" y="252" font-family="Consolas,'Courier New',monospace" font-size="28" fill="#8B5CF6">&gt;</text>
+
+    <clipPath id="r1"><rect x="100" y="222" width="0" height="40"><animate attributeName="width" values="0;344;344;0;0" keyTimes="0;0.11;0.30;0.33;1" dur="12s" begin="0s" repeatCount="indefinite"/></rect></clipPath>
+    <text x="100" y="252" font-family="Consolas,'Courier New',monospace" font-size="28" fill="#E9E5FF" clip-path="url(#r1)">Full Stack Developer</text>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.01;0.30;0.33;1" dur="12s" begin="0s" repeatCount="indefinite"/>
+      <rect class="cur" x="100" y="224" width="3" height="32" fill="#C4B5FD"><animate attributeName="x" values="100;444;444;100;100" keyTimes="0;0.11;0.30;0.33;1" dur="12s" begin="0s" repeatCount="indefinite"/></rect>
+    </g>
+
+    <clipPath id="r2"><rect x="100" y="222" width="0" height="40"><animate attributeName="width" values="0;275;275;0;0" keyTimes="0;0.11;0.30;0.33;1" dur="12s" begin="4s" repeatCount="indefinite"/></rect></clipPath>
+    <text x="100" y="252" font-family="Consolas,'Courier New',monospace" font-size="28" fill="#E9E5FF" clip-path="url(#r2)">AI / ML Engineer</text>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.01;0.30;0.33;1" dur="12s" begin="4s" repeatCount="indefinite"/>
+      <rect class="cur" x="100" y="224" width="3" height="32" fill="#C4B5FD"><animate attributeName="x" values="100;375;375;100;100" keyTimes="0;0.11;0.30;0.33;1" dur="12s" begin="4s" repeatCount="indefinite"/></rect>
+    </g>
+
+    <clipPath id="r3"><rect x="100" y="222" width="0" height="40"><animate attributeName="width" values="0;447;447;0;0" keyTimes="0;0.11;0.30;0.33;1" dur="12s" begin="8s" repeatCount="indefinite"/></rect></clipPath>
+    <text x="100" y="252" font-family="Consolas,'Courier New',monospace" font-size="28" fill="#E9E5FF" clip-path="url(#r3)">Django &#8226; FastAPI &#8226; Next.js</text>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.01;0.30;0.33;1" dur="12s" begin="8s" repeatCount="indefinite"/>
+      <rect class="cur" x="100" y="224" width="3" height="32" fill="#C4B5FD"><animate attributeName="x" values="100;547;547;100;100" keyTimes="0;0.11;0.30;0.33;1" dur="12s" begin="8s" repeatCount="indefinite"/></rect>
+    </g>
+
+    <text x="70" y="316" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="16" fill="#8B88B8">BS AI Student &#8226; Minhaj University Lahore &#8226; AI &#8226; Blockchain &#8226; Autonomous Agents</text>
+  </g>
+
+  <!-- corner brackets -->
+  <g fill="none" stroke="#8B5CF6" stroke-width="2" stroke-linecap="round">
+    <path d="M16 46V16H46"/>
+    <path d="M1154 16H1184V46"/>
+    <path d="M16 314V344H46"/>
+    <path d="M1154 344H1184V314"/>
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite"/>
+  </g>
+
+  <rect x="1" y="1" width="1198" height="358" rx="22" fill="none" stroke="url(#vio)" stroke-width="2"/>
+</svg>

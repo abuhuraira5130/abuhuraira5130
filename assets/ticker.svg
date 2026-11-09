@@ -9,34 +9,33 @@
     <mask id="fade">
       <rect width="1200" height="72" fill="url(#fadeG)"/>
     </mask>
-    <style>
-      .t { font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 15px; font-weight: 600; fill: #C4B5FD; text-anchor: middle; }
-      .p { fill: #0B0A1E; stroke: #6366F1; stroke-opacity: 0.7; stroke-width: 1.5; }
-    </style>
     <g id="set">
-      <rect class="p" x="0" y="16" width="92" height="40" rx="20"/><text class="t" x="46" y="41">Python</text>
-      <rect class="p" x="108" y="16" width="62" height="40" rx="20"/><text class="t" x="139" y="41">C++</text>
-      <rect class="p" x="186" y="16" width="92" height="40" rx="20"/><text class="t" x="232" y="41">Django</text>
-      <rect class="p" x="294" y="16" width="102" height="40" rx="20"/><text class="t" x="345" y="41">FastAPI</text>
-      <rect class="p" x="412" y="16" width="102" height="40" rx="20"/><text class="t" x="463" y="41">Next.js</text>
-      <rect class="p" x="530" y="16" width="82" height="40" rx="20"/><text class="t" x="571" y="41">React</text>
-      <rect class="p" x="628" y="16" width="152" height="40" rx="20"/><text class="t" x="704" y="41">React Native</text>
-      <rect class="p" x="796" y="16" width="132" height="40" rx="20"/><text class="t" x="862" y="41">JavaScript</text>
-      <rect class="p" x="944" y="16" width="132" height="40" rx="20"/><text class="t" x="1010" y="41">TypeScript</text>
-      <rect class="p" x="1092" y="16" width="132" height="40" rx="20"/><text class="t" x="1158" y="41">PostgreSQL</text>
-      <rect class="p" x="1240" y="16" width="152" height="40" rx="20"/><text class="t" x="1316" y="41">Tailwind CSS</text>
-      <rect class="p" x="1408" y="16" width="92" height="40" rx="20"/><text class="t" x="1454" y="41">Vercel</text>
-      <rect class="p" x="1516" y="16" width="62" height="40" rx="20"/><text class="t" x="1547" y="41">Git</text>
-      <rect class="p" x="1594" y="16" width="102" height="40" rx="20"/><text class="t" x="1645" y="41">AI / ML</text>
-      <rect class="p" x="1712" y="16" width="112" height="40" rx="20"/><text class="t" x="1768" y="41">LLM Apps</text>
+      <rect x="0" y="16" width="86" height="40" rx="20" fill="#0B0D16" stroke="#00E5FF" stroke-opacity="0.75" stroke-width="1.5"/><text class="t" x="43" y="41">Python</text>
+      <rect x="102" y="16" width="64" height="40" rx="20" fill="#0B0D16" stroke="#2DFFB3" stroke-opacity="0.75" stroke-width="1.5"/><text class="t" x="134" y="41">C++</text>
+      <rect x="182" y="16" width="86" height="40" rx="20" fill="#0B0D16" stroke="#FFC400" stroke-opacity="0.75" stroke-width="1.5"/><text class="t" x="225" y="41">Django</text>
+      <rect x="284" y="16" width="95" height="40" rx="20" fill="#0B0D16" stroke="#FF3D9A" stroke-opacity="0.75" stroke-width="1.5"/><text class="t" x="332" y="41">FastAPI</text>
+      <rect x="395" y="16" width="95" height="40" rx="20" fill="#0B0D16" stroke="#00E5FF" stroke-opacity="0.75" stroke-width="1.5"/><text class="t" x="443" y="41">Next.js</text>
+      <rect x="506" y="16" width="78" height="40" rx="20" fill="#0B0D16" stroke="#2DFFB3" stroke-opacity="0.75" stroke-width="1.5"/><text class="t" x="545" y="41">React</text>
+      <rect x="600" y="16" width="120" height="40" rx="20" fill="#0B0D16" stroke="#FFC400" stroke-opacity="0.75" stroke-width="1.5"/><text class="t" x="660" y="41">JavaScript</text>
+      <rect x="736" y="16" width="120" height="40" rx="20" fill="#0B0D16" stroke="#FF3D9A" stroke-opacity="0.75" stroke-width="1.5"/><text class="t" x="796" y="41">TypeScript</text>
+      <rect x="872" y="16" width="120" height="40" rx="20" fill="#0B0D16" stroke="#00E5FF" stroke-opacity="0.75" stroke-width="1.5"/><text class="t" x="932" y="41">PostgreSQL</text>
+      <rect x="1008" y="16" width="137" height="40" rx="20" fill="#0B0D16" stroke="#2DFFB3" stroke-opacity="0.75" stroke-width="1.5"/><text class="t" x="1077" y="41">Tailwind CSS</text>
+      <rect x="1161" y="16" width="86" height="40" rx="20" fill="#0B0D16" stroke="#FFC400" stroke-opacity="0.75" stroke-width="1.5"/><text class="t" x="1204" y="41">Vercel</text>
+      <rect x="1263" y="16" width="64" height="40" rx="20" fill="#0B0D16" stroke="#FF3D9A" stroke-opacity="0.75" stroke-width="1.5"/><text class="t" x="1295" y="41">Git</text>
+      <rect x="1343" y="16" width="95" height="40" rx="20" fill="#0B0D16" stroke="#00E5FF" stroke-opacity="0.75" stroke-width="1.5"/><text class="t" x="1391" y="41">AI / ML</text>
+      <rect x="1454" y="16" width="103" height="40" rx="20" fill="#0B0D16" stroke="#2DFFB3" stroke-opacity="0.75" stroke-width="1.5"/><text class="t" x="1506" y="41">LLM Apps</text>
     </g>
   </defs>
+
+  <style>
+    .t { font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; font-size: 15px; font-weight: 600; fill: #E8EEFF; text-anchor: middle; }
+  </style>
 
   <g mask="url(#fade)">
     <g>
       <use href="#set" xlink:href="#set" x="0"/>
-      <use href="#set" xlink:href="#set" x="1840"/>
-      <animateTransform attributeName="transform" type="translate" from="0 0" to="-1840 0" dur="32s" repeatCount="indefinite"/>
+      <use href="#set" xlink:href="#set" x="1573"/>
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-1573 0" dur="36s" repeatCount="indefinite"/>
     </g>
   </g>
 </svg>

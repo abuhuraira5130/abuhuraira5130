@@ -68,20 +68,19 @@ I'm **Abu Huraira**, a **Full Stack Developer** and **AI/ML Engineer**, and a BS
 
 ## 📊 GitHub Stats
 
-Live numbers from my GitHub account: contributions, top languages, streaks and activity.
+Live numbers from my GitHub account, refreshed automatically every few hours.
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=abuhuraira5130&show_icons=true&hide_border=true&border_radius=14&bg_color=07080F&title_color=00E5FF&icon_color=FFC400&text_color=E8EEFF&ring_color=2DFFB3" alt="GitHub stats" />
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=abuhuraira5130&layout=compact&hide_border=true&border_radius=14&bg_color=07080F&title_color=00E5FF&text_color=E8EEFF" alt="Top languages" />
+<img src="assets/stats/overview.svg" width="100%" alt="GitHub overview" />
 
-<br/>
+<br/><br/>
 
-<img src="https://streak-stats.demolab.com/?user=abuhuraira5130&hide_border=true&border_radius=14&background=07080F&ring=2DFFB3&fire=FFC400&currStreakLabel=00E5FF&currStreakNum=E8EEFF&sideNum=E8EEFF&sideLabels=8A93A8&dates=8A93A8" alt="GitHub streak" />
+<img src="assets/stats/languages.svg" width="100%" alt="Top languages" />
 
-<br/>
+<br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=abuhuraira5130&bg_color=07080F&color=00E5FF&line=2DFFB3&point=FFC400&area=true&area_color=00E5FF&hide_border=true&radius=14&title_color=00E5FF&custom_title=Contribution%20Activity" alt="Contribution activity graph" />
+<img src="assets/stats/activity.svg" width="100%" alt="Contribution activity" />
 
 </div>
 

@@ -6,9 +6,9 @@
 
 <br/>
 
-[![Portfolio](https://img.shields.io/badge/%F0%9F%8C%90_PORTFOLIO-huraira--labs.vercel.app-8B5CF6?style=for-the-badge)](https://huraira-labs.vercel.app/)
-[![Open to Work](https://img.shields.io/badge/%E2%9A%A1_OPEN_TO-WORK_%26_COLLABORATION-6366F1?style=for-the-badge)](https://huraira-labs.vercel.app/)
-![Profile Views](https://komarev.com/ghpvc/?username=abuhuraira5130&style=for-the-badge&color=A78BFA&label=PROFILE+VIEWS)
+[![Portfolio](https://img.shields.io/badge/PORTFOLIO-huraira--labs.vercel.app-00E5FF?style=for-the-badge&labelColor=05060B)](https://huraira-labs.vercel.app/)
+[![Status](https://img.shields.io/badge/STATUS-OPEN_TO_WORK-2DFFB3?style=for-the-badge&labelColor=05060B)](https://huraira-labs.vercel.app/)
+![Profile Views](https://komarev.com/ghpvc/?username=abuhuraira5130&style=for-the-badge&color=FFC400&labelColor=05060B&label=PROFILE+VIEWS)
 
 <br/>
 
@@ -29,7 +29,7 @@ I'm **Abu Huraira**, a **Full Stack Developer** and **AI/ML Engineer**, and a BS
 - 🌐 Shipping real projects with live deployments on **Vercel** and **Render**
 - 🔭 Exploring the intersection of **AI, blockchain and autonomous agents**
 
----
+<img src="assets/divider.svg" width="100%" alt="divider" />
 
 ## 🛠️ Tech Stack
 
@@ -41,7 +41,7 @@ I'm **Abu Huraira**, a **Full Stack Developer** and **AI/ML Engineer**, and a BS
 
 <img src="https://skillicons.dev/icons?i=django,fastapi,react,nextjs,nodejs,vite,tailwind" alt="Frameworks" />
 
-![React Native](https://img.shields.io/badge/React_Native-050505?style=for-the-badge&logo=react&logoColor=61DAFB)
+![React Native](https://img.shields.io/badge/React_Native-05060B?style=for-the-badge&logo=react&logoColor=61DAFB)
 
 **Databases, Tools & Deployment**
 
@@ -49,11 +49,9 @@ I'm **Abu Huraira**, a **Full Stack Developer** and **AI/ML Engineer**, and a BS
 
 **AI / ML**
 
-![Machine Learning](https://img.shields.io/badge/Machine_Learning-6366F1?style=for-the-badge)
-![NLP](https://img.shields.io/badge/NLP-8B5CF6?style=for-the-badge)
-![LLM Apps](https://img.shields.io/badge/LLM_Powered_Apps-A78BFA?style=for-the-badge)
-
----
+![Machine Learning](https://img.shields.io/badge/Machine_Learning-00E5FF?style=for-the-badge&labelColor=05060B)
+![NLP](https://img.shields.io/badge/NLP-2DFFB3?style=for-the-badge&labelColor=05060B)
+![LLM Apps](https://img.shields.io/badge/LLM_Powered_Apps-FFC400?style=for-the-badge&labelColor=05060B)
 
 <img src="assets/divider.svg" width="100%" alt="divider" />
 
@@ -66,37 +64,46 @@ I'm **Abu Huraira**, a **Full Stack Developer** and **AI/ML Engineer**, and a BS
 | 🌟 **Huraira Labs Portfolio** | My futuristic personal portfolio with animated sections and a working contact form | Next.js, React, TypeScript, Tailwind CSS, Framer Motion | [🌐 Live](https://huraira-labs.vercel.app/) · [💻 Code](https://github.com/abuhuraira5130/Huraira-portfolio) |
 | 📄 **CareerForge AI** | Resume analyzer with ATS scoring, skill-gap analysis, a job tracker and mock interviews | React, Django REST, Supabase, LLMs | [💻 Code](https://github.com/abuhuraira5130/Resume_Analyzer_And-_Enhancer) |
 
----
-
 <img src="assets/divider.svg" width="100%" alt="divider" />
 
 ## 📊 GitHub Stats
 
+Live numbers from my GitHub account: contributions, top languages, streaks and activity.
+
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=abuhuraira5130&show_icons=true&hide_border=true&bg_color=0A0920&title_color=A78BFA&icon_color=8B5CF6&text_color=C4B5FD" alt="GitHub stats" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=abuhuraira5130&layout=compact&hide_border=true&bg_color=0A0920&title_color=A78BFA&text_color=C4B5FD" alt="Top languages" />
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=abuhuraira5130&show_icons=true&hide_border=true&border_radius=14&bg_color=07080F&title_color=00E5FF&icon_color=FFC400&text_color=E8EEFF&ring_color=2DFFB3" alt="GitHub stats" />
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=abuhuraira5130&layout=compact&hide_border=true&border_radius=14&bg_color=07080F&title_color=00E5FF&text_color=E8EEFF" alt="Top languages" />
+
+<br/>
+
+<img src="https://streak-stats.demolab.com/?user=abuhuraira5130&hide_border=true&border_radius=14&background=07080F&ring=2DFFB3&fire=FFC400&currStreakLabel=00E5FF&currStreakNum=E8EEFF&sideNum=E8EEFF&sideLabels=8A93A8&dates=8A93A8" alt="GitHub streak" />
+
+<br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=abuhuraira5130&bg_color=07080F&color=00E5FF&line=2DFFB3&point=FFC400&area=true&area_color=00E5FF&hide_border=true&radius=14&title_color=00E5FF&custom_title=Contribution%20Activity" alt="Contribution activity graph" />
 
 </div>
 
----
-
 <img src="assets/divider.svg" width="100%" alt="divider" />
 
-## 📫 Let's Connect
+## 📫 Let’s Connect
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-8B5CF6?style=for-the-badge&logo=googlechrome&logoColor=white)](https://huraira-labs.vercel.app/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](YOUR-LINKEDIN)
-[![Email](https://img.shields.io/badge/Email-050505?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abuhuraira5424@gmail.com)
+<img src="assets/connect.svg" width="100%" alt="Let’s build something great. Open to freelance projects, internships and collaborations." />
 
 <br/>
 
-💬 *Open to freelance projects, internships and collaborations. Let's build something great!*
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Abu_Huraira-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abu-huraira-80ba9a2b5/)
+[![Email](https://img.shields.io/badge/Email-huraira5130%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](https://mail.google.com/mail/?view=cm&fs=1&to=huraira5130@gmail.com&su=Let%27s%20work%20together)
+[![Portfolio](https://img.shields.io/badge/Portfolio-huraira--labs.vercel.app-00E5FF?style=for-the-badge&labelColor=05060B)](https://huraira-labs.vercel.app/)
+[![X](https://img.shields.io/badge/X-%40abuhuraira5424-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/abuhuraira5424)
 
-<br/>
+<sub>Prefer another mail app? Write to <a href="mailto:huraira5130@gmail.com">huraira5130@gmail.com</a></sub>
 
-<img src="assets/divider.svg" width="100%" alt="divider" />
+<br/><br/>
+
+<img src="assets/footer.svg" width="100%" alt="Thanks for stopping by. Designed and built by Abu Huraira." />
 
 </div>

@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Let&#8217;s build something great. Open to freelance projects, internships and collaborations.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#05060B"/>
+      <stop offset="1" stop-color="#0B0D18"/>
+    </linearGradient>
+    <linearGradient id="aurora" gradientUnits="userSpaceOnUse" x1="70" y1="0" x2="620" y2="0" spreadMethod="reflect">
+      <stop offset="0" stop-color="#00E5FF"/>
+      <stop offset="0.33" stop-color="#2DFFB3"/>
+      <stop offset="0.66" stop-color="#FFC400"/>
+      <stop offset="1" stop-color="#FF3D9A"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-280 0;280 0;-280 0" dur="10s" repeatCount="indefinite"/>
+    </linearGradient>
+    <filter id="blur" x="-40%" y="-80%" width="180%" height="260%">
+      <feGaussianBlur stdDeviation="55"/>
+    </filter>
+    <filter id="glowS" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="card"><rect width="1200" height="300" rx="22"/></clipPath>
+  </defs>
+
+  <style>
+    text { font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; }
+    .lb { font-size: 12px; font-weight: 700; letter-spacing: 5px; fill: #00E5FF; }
+    .hd { font-size: 60px; font-weight: 800; letter-spacing: -1px; }
+    .sb { font-size: 16px; font-weight: 500; fill: #8A93A8; }
+    .rt { font-size: 17px; font-weight: 700; fill: #F4F7FF; }
+    .rs { font-size: 12.5px; font-weight: 500; fill: #8A93A8; }
+    .tg { font-size: 10.5px; font-weight: 700; letter-spacing: 2px; text-anchor: middle; }
+  </style>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="300" fill="url(#bg)"/>
+
+    <g filter="url(#blur)">
+      <ellipse cx="200" cy="140" rx="260" ry="130" fill="#00E5FF" opacity="0.22">
+        <animate attributeName="cx" values="160;300;160" dur="15s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse cx="1010" cy="160" rx="260" ry="130" fill="#FF3D9A" opacity="0.20">
+        <animate attributeName="cx" values="1060;920;1060" dur="18s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse cx="620" cy="300" rx="300" ry="70" fill="#FFC400" opacity="0.14">
+        <animate attributeName="opacity" values="0.08;0.2;0.08" dur="6s" repeatCount="indefinite"/>
+      </ellipse>
+    </g>
+
+    <!-- left: message -->
+    <text class="lb" x="70" y="72">// LET&#8217;S CONNECT</text>
+    <text class="hd" x="70" y="140" fill="#F4F7FF">Let&#8217;s build</text>
+    <text class="hd" x="70" y="206" fill="url(#aurora)">something great.</text>
+    <text class="sb" x="70" y="250">Open to freelance projects, internships and collaborations.</text>
+
+    <!-- right: availability -->
+    <g>
+      <rect x="740" y="45" width="400" height="62" rx="16" fill="#10131F" fill-opacity="0.75" stroke="#FFFFFF" stroke-opacity="0.10"/>
+      <circle cx="768" cy="76" r="5" fill="none" stroke="#2DFFB3"><animate attributeName="r" values="5;14;14" keyTimes="0;0.7;1" dur="2.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.9;0;0" keyTimes="0;0.7;1" dur="2.2s" repeatCount="indefinite"/></circle>
+      <circle cx="768" cy="76" r="5" fill="#2DFFB3"/>
+      <text class="rt" x="790" y="71">Freelance projects</text>
+      <text class="rs" x="790" y="91">Web apps, APIs and AI features</text>
+      <rect x="1052" y="64" width="70" height="24" rx="12" fill="#2DFFB3" fill-opacity="0.12" stroke="#2DFFB3" stroke-opacity="0.5"/>
+      <text class="tg" x="1087" y="80.5" fill="#2DFFB3">OPEN</text>
+    </g>
+    <g>
+      <rect x="740" y="119" width="400" height="62" rx="16" fill="#10131F" fill-opacity="0.75" stroke="#FFFFFF" stroke-opacity="0.10"/>
+      <circle cx="768" cy="150" r="5" fill="none" stroke="#00E5FF"><animate attributeName="r" values="5;14;14" keyTimes="0;0.7;1" dur="2.2s" begin="0.7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.9;0;0" keyTimes="0;0.7;1" dur="2.2s" begin="0.7s" repeatCount="indefinite"/></circle>
+      <circle cx="768" cy="150" r="5" fill="#00E5FF"/>
+      <text class="rt" x="790" y="145">Internships</text>
+      <text class="rs" x="790" y="165">Software and AI/ML roles</text>
+      <rect x="1052" y="138" width="70" height="24" rx="12" fill="#00E5FF" fill-opacity="0.12" stroke="#00E5FF" stroke-opacity="0.5"/>
+      <text class="tg" x="1087" y="154.5" fill="#00E5FF">OPEN</text>
+    </g>
+    <g>
+      <rect x="740" y="193" width="400" height="62" rx="16" fill="#10131F" fill-opacity="0.75" stroke="#FFFFFF" stroke-opacity="0.10"/>
+      <circle cx="768" cy="224" r="5" fill="none" stroke="#FFC400"><animate attributeName="r" values="5;14;14" keyTimes="0;0.7;1" dur="2.2s" begin="1.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.9;0;0" keyTimes="0;0.7;1" dur="2.2s" begin="1.4s" repeatCount="indefinite"/></circle>
+      <circle cx="768" cy="224" r="5" fill="#FFC400"/>
+      <text class="rt" x="790" y="219">Collaborations</text>
+      <text class="rs" x="790" y="239">Product ideas and team projects</text>
+      <rect x="1052" y="212" width="70" height="24" rx="12" fill="#FFC400" fill-opacity="0.12" stroke="#FFC400" stroke-opacity="0.5"/>
+      <text class="tg" x="1087" y="228.5" fill="#FFC400">OPEN</text>
+    </g>
+  </g>
+
+  <rect x="2" y="2" width="1196" height="296" rx="22" fill="none" stroke="#FFFFFF" stroke-opacity="0.10" stroke-width="2"/>
+  <rect x="2" y="2" width="1196" height="296" rx="22" fill="none" stroke="#2DFFB3" stroke-width="3" pathLength="1000" stroke-dasharray="110 890" stroke-linecap="round" filter="url(#glowS)">
+    <animate attributeName="stroke-dashoffset" from="0" to="-1000" dur="7s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="2" y="2" width="1196" height="296" rx="22" fill="none" stroke="#FF3D9A" stroke-width="3" pathLength="1000" stroke-dasharray="110 890" stroke-linecap="round" filter="url(#glowS)">
+    <animate attributeName="stroke-dashoffset" from="0" to="-1000" dur="7s" begin="-3.5s" repeatCount="indefinite"/>
+  </rect>
+</svg>

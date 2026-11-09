@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="170" viewBox="0 0 1200 170" role="img" aria-label="Thanks for stopping by. Designed and built by Abu Huraira.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#05060B"/>
+      <stop offset="1" stop-color="#0B0D18"/>
+    </linearGradient>
+    <linearGradient id="aurora" gradientUnits="userSpaceOnUse" x1="380" y1="0" x2="820" y2="0" spreadMethod="reflect">
+      <stop offset="0" stop-color="#00E5FF"/>
+      <stop offset="0.33" stop-color="#2DFFB3"/>
+      <stop offset="0.66" stop-color="#FFC400"/>
+      <stop offset="1" stop-color="#FF3D9A"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-220 0;220 0;-220 0" dur="10s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="waveFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2DFFB3" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#2DFFB3" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="blur" x="-40%" y="-80%" width="180%" height="260%">
+      <feGaussianBlur stdDeviation="50"/>
+    </filter>
+    <filter id="glowS" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="card"><rect width="1200" height="170" rx="22"/></clipPath>
+  </defs>
+
+  <style>
+    text { font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; text-anchor: middle; }
+    .lb { font-size: 12px; font-weight: 700; letter-spacing: 6px; fill: #00E5FF; }
+    .hd { font-size: 30px; font-weight: 800; }
+    .sb { font-size: 14px; font-weight: 500; letter-spacing: 1px; fill: #8A93A8; }
+  </style>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="170" fill="url(#bg)"/>
+
+    <g filter="url(#blur)">
+      <ellipse cx="240" cy="40" rx="230" ry="80" fill="#00E5FF" opacity="0.2">
+        <animate attributeName="cx" values="200;320;200" dur="14s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse cx="980" cy="40" rx="230" ry="80" fill="#FF3D9A" opacity="0.18">
+        <animate attributeName="cx" values="1020;900;1020" dur="17s" repeatCount="indefinite"/>
+      </ellipse>
+    </g>
+
+    <circle cx="260" cy="170" r="1.5" fill="#FFC400"><animate attributeName="cy" from="180" to="-10" dur="12s" begin="-4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="12s" begin="-4s" repeatCount="indefinite"/></circle>
+    <circle cx="520" cy="170" r="1.8" fill="#00E5FF"><animate attributeName="cy" from="180" to="-10" dur="14s" begin="-9s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="14s" begin="-9s" repeatCount="indefinite"/></circle>
+    <circle cx="840" cy="170" r="1.5" fill="#2DFFB3"><animate attributeName="cy" from="180" to="-10" dur="11s" begin="-2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="11s" begin="-2s" repeatCount="indefinite"/></circle>
+    <circle cx="1000" cy="170" r="1.7" fill="#FF3D9A"><animate attributeName="cy" from="180" to="-10" dur="13s" begin="-7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="13s" begin="-7s" repeatCount="indefinite"/></circle>
+
+    <g transform="translate(0 140)">
+      <g>
+        <path d="M-400 0 q100 -22 200 0 t200 0 t200 0 t200 0 t200 0 t200 0 t200 0 t200 0 V50 H-400 Z" fill="url(#waveFill)"/>
+        <path d="M-400 0 q100 -22 200 0 t200 0 t200 0 t200 0 t200 0 t200 0 t200 0 t200 0" fill="none" stroke="#2DFFB3" stroke-width="2" opacity="0.9"/>
+        <animateTransform attributeName="transform" type="translate" from="0 0" to="400 0" dur="11s" repeatCount="indefinite"/>
+      </g>
+    </g>
+    <g transform="translate(0 148)">
+      <g>
+        <path d="M0 0 q100 30 200 0 t200 0 t200 0 t200 0 t200 0 t200 0 t200 0 t200 0" fill="none" stroke="#00E5FF" stroke-width="1.5" opacity="0.7"/>
+        <animateTransform attributeName="transform" type="translate" from="0 0" to="-400 0" dur="15s" repeatCount="indefinite"/>
+      </g>
+    </g>
+    <g transform="translate(0 156)">
+      <g>
+        <path d="M-400 0 q100 -16 200 0 t200 0 t200 0 t200 0 t200 0 t200 0 t200 0 t200 0" fill="none" stroke="#FF3D9A" stroke-width="1.3" opacity="0.6"/>
+        <animateTransform attributeName="transform" type="translate" from="0 0" to="400 0" dur="19s" begin="-6s" repeatCount="indefinite"/>
+      </g>
+    </g>
+
+    <text class="lb" x="600" y="50">THANKS FOR STOPPING BY</text>
+    <text class="hd" x="600" y="92" fill="url(#aurora)">Designed &amp; built by Abu Huraira</text>
+    <text class="sb" x="600" y="120">Full Stack Developer &#8226; AI/ML Engineer</text>
+  </g>
+
+  <rect x="2" y="2" width="1196" height="166" rx="22" fill="none" stroke="#FFFFFF" stroke-opacity="0.10" stroke-width="2"/>
+  <rect x="2" y="2" width="1196" height="166" rx="22" fill="none" stroke="#00E5FF" stroke-width="3" pathLength="1000" stroke-dasharray="100 900" stroke-linecap="round" filter="url(#glowS)">
+    <animate attributeName="stroke-dashoffset" from="0" to="-1000" dur="8s" repeatCount="indefinite"/>
+  </rect>
+</svg>

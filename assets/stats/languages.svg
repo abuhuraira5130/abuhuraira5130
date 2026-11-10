@@ -29,7 +29,7 @@
       </ellipse>
     </g>
     <text class="lb" x="40" y="44" fill="#00E5FF">TOP LANGUAGES</text>
-    <text class="rt" x="1160" y="44" text-anchor="end">UPDATED 2026-11-09</text>
+    <text class="rt" x="1160" y="44" text-anchor="end">UPDATED 2026-11-10</text>
     <clipPath id="barclip"><rect x="40" y="80" width="1120" height="24" rx="12"/></clipPath>
     <rect x="40" y="80" width="1120" height="24" rx="12" fill="#10131F"/>
     <g clip-path="url(#barclip)">

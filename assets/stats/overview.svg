@@ -29,7 +29,7 @@
       </ellipse>
     </g>
     <text class="lb" x="40" y="44" fill="#00E5FF">GITHUB OVERVIEW</text>
-    <text class="rt" x="1160" y="44" text-anchor="end">UPDATED 2026-11-10</text>
+    <text class="rt" x="1160" y="44" text-anchor="end">UPDATED 2026-11-11</text>
     <g>
       <rect x="40.0" y="70" width="208" height="126" rx="18" fill="#0E1120" fill-opacity="0.85" stroke="#00E5FF" stroke-opacity="0.5" stroke-width="1.5">
         <animate attributeName="stroke-opacity" values="0.3;0.8;0.3" dur="4s" begin="0.0s" repeatCount="indefinite"/>
@@ -53,7 +53,7 @@
         <animate attributeName="stroke-opacity" values="0.3;0.8;0.3" dur="4s" begin="1.0s" repeatCount="indefinite"/>
       </rect>
       <rect x="520.0" y="70" width="160" height="3" rx="1.5" fill="#FFC400"/>
-      <text x="600.0" y="128" text-anchor="middle" font-size="48" font-weight="800" fill="#FFFFFF">3</text>
+      <text x="600.0" y="128" text-anchor="middle" font-size="48" font-weight="800" fill="#FFFFFF">0</text>
       <text x="600.0" y="160" text-anchor="middle" font-size="16" font-weight="700" fill="#E8EEFF">Current streak</text>
       <text x="600.0" y="182" text-anchor="middle" font-size="13" font-weight="500" fill="#8A93A8">days in a row</text>
     </g>
